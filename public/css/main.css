@@ -1,0 +1,11 @@
+.main--images {
+    max-width: 300px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.clickable {
+    cursor: pointer;
+}

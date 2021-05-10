@@ -1,0 +1,39 @@
+<%- include('includes/head.ejs') %>
+
+    </head>
+
+    <body>
+       
+        <%- include('includes/navigation.ejs') %>
+            <main>
+                <h1 class="w3-content">Registro nuevo usuario</h1>
+                <div class="w3-row w3-section">
+                    <form class="w3-content" method="POST" action="/registro">
+                        <label for="username">Nombre de usuario</label>
+                        <input type="text" name="username" value="" required maxlength="30">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" value="">
+                        
+                        <input class="w3-input" type="submit" value="Registrarse">
+                        
+                    </form>
+
+                </div>
+
+      
+
+
+                <div class="w3-content w3-red">
+                    <%  %>
+                        <h2>
+                            <% %>
+                        </h2>
+                        <% %>
+                </div>
+
+
+
+            </main>
+    </body>
+
+    </html>
